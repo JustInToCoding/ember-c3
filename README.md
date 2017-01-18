@@ -7,8 +7,6 @@
 
 **Live Demo:** http://glavin001.github.io/ember-c3/
 
-Alternatively take a look at [Ember-NVD3](https://github.com/Glavin001/ember-nvd3) for your charting needs.
-
 ---
 
 ## Installation
@@ -78,14 +76,16 @@ See http://c3js.org/examples.html for examples of how to use C3.
 
 ## Development
 
-* `git clone` this repository
+* `git clone <repository-url>` this repository
+* `cd ember-c3`
 * `npm install`
 * `bower install`
-* `ember server`
+* `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ## Running Tests
 
+* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
@@ -93,7 +93,7 @@ See http://c3js.org/examples.html for examples of how to use C3.
 
 * `ember build`
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+For more information on using ember-cli, visit [https://www.ember-cli.com/](http://www.ember-cli.com/).
 
 ## Publishing to GitHub Pages
 
